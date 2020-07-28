@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Lists, Tables and Forms</title>
+	<link rel="stylesheet" type="text/css" href="chapter-14.css">
+</head>
+
+<body>
+	<h1>Poetry Workshops</h1>
+
+	<p>We will be conducting a number of poetry workshops...</p>
+	<p>Please note that the following events are free...</p>
+
+	<ul>
+		<li>A Poetic Perspective</li>
+		<li>Walt Whitman at War</li>
+		<li>Fund Poems and Outsider Poetry</li>
+	</ul>
+
+	<table>
+		<tr class="head">
+			<th></th>
+			<th>New York</th>
+			<th>Chicago</th>
+			<th>San Francisco</th>
+		</tr>
+
+		<tr>
+			<th>A Poetic Perspective</th>
+			<td>4 Feb 2012 <br> 11-2</td>
+			<td>3 Mar 2012 <br> 11-2</td>
+			<td>17 Mar 2012 <br> 11-2</td>
+		</tr>
+
+		<tr class="even">
+			<th>Walt Whitman at War</th>
+			<td>7 Apr 2012 <br> 11-1</td>
+			<td>5 May 2012 <br> 11-1</td>
+			<td>19 May 2012 <br> 11-1</td>
+		</tr>
+
+		<tr>
+			<th>Found Poems &amp; Outsider Poetry</th>
+			<td>9 Jun 2012 <br> 11-2</td>
+			<td>7 Jul 2012 <br> 11-2</td>
+			<td>21 Jul 2012 <br> 11-2</td>
+		</tr>
+
+		<tr class="even">
+			<th>Natural Death: An Exploration</th>
+			<td>4 Aug 2012 <br> 11-4</td>
+			<td>8 Sep 2012 <br> 11-4</td>
+			<td>15 Sep 2012 <br> 11-4</td>
+		</tr>
+	</table>
+
+	<form action="http://www.example.com/form.php" method="get">
+		<fieldset>
+			<legend>Register your interest</legend>
+
+			<p><label class="title" for="name">Your name:</label>
+				<input type="text" name="name" id="name"><br>
+				<label class="title" for="email">Your email:</label>
+				<input type="text" name="email" id="email"></p>
+			<p><label class="title" for="location">Your closest center:</label>
+				<select>
+					<option value="ny">New York</option>
+					<option value="il">Chicago</option>
+					<option value="ca">San Francisco</option>
+				</select></p>
+		</fieldset>
+	</form>
+</body>
+
+</html>
